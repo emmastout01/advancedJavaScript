@@ -5,13 +5,13 @@ Notes and examples on advanced JavaScript, using the Advanced JavaScript tutoria
 ## Some important terms
 
 ### Syntax Parsers
-  A program that reads your code and determines what it does and if its grammar is valid
+- A program that reads your code and determines what it does and if its grammar is valid
 
 ### Execution Contexts
-    A wrapper to help manage the code that is running. This manages which lexical environment is running at a given time. 
+- A wrapper to help manage the code that is running. This manages which lexical environment is running at a given time. 
 
 ### Lexical Environments
-    Where something sits physically in the code you write. --It exists in programming languages in which where you write something matters. Where you see things written will impact how those components will 'sit' in the computer instructions.
+- Where something sits physically in the code you write. --It exists in programming languages in which where you write something matters. Where you see things written will impact how those components will 'sit' in the computer instructions.
 
 
 
