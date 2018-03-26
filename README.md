@@ -40,5 +40,8 @@ Notes and examples on advanced JavaScript, using the Advanced JavaScript tutoria
 - Function invocation = running a function
 - Whenever we invoke (aka call) a function in JS, a new execution context is created. 
 - This execution context is then placed on the execution stack. Whichever is on top of the execution stack will run first. 
+- Every function creates a new execution context, which first runs through a creation phase and then an execution phase, in which the code is executed line by line.
+- Because JS is single-threaded and synchronous, it will only do one thing at a time. For example, when running a function, it will run all of the code in that function before moving on to anything that comes after the function call. 
+- When a function finishes running, it is 'popped' off the execution stack
 
 
